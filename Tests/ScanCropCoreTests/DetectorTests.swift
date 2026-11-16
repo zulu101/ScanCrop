@@ -91,7 +91,7 @@ final class DetectorTests: XCTestCase {
         ]
         let found = PhotoDetector.detect(in: scan(1700, 1400, truth.map { Photo(rect: $0) }))
         assertMatches(found, truth)
-        XCTAssertEqual(found.map { Int($0.centerX / 100) }, [5, 13, 8], "reading order")
+        XCTAssertEqual(found.map { Int(($0.centerX / 100).rounded()) }, [5, 13, 8], "reading order")
     }
 
     func testPaleSkyAtTheEdgeIsKept() {
