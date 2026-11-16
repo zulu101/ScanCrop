@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4f2ec"/>
+      <stop offset="1" stop-color="#d9d5ca"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5aa0e6"/>
+      <stop offset="1" stop-color="#bfe0f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <!-- Scanner glass: the macOS icon grid's rounded square -->
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+  <!-- A tilted photo on the glass -->
+  <g transform="rotate(-8 512 520)" filter="url(#shadow)">
+    <rect x="222" y="300" width="580" height="430" rx="6" fill="#fffdf8"/>
+    <rect x="252" y="330" width="520" height="370" fill="url(#sky)"/>
+    <circle cx="660" cy="410" r="44" fill="#ffd45c"/>
+    <path d="M252 700 L252 590 L380 480 L470 560 L560 460 L772 640 L772 700 Z" fill="#3f8f5a"/>
+    <path d="M252 700 L252 640 L420 560 L560 620 L772 600 L772 700 Z" fill="#2e6e44"/>
+  </g>
+  <!-- Crop marks around the straightened photo -->
+  <g fill="none" stroke="#e8483b" stroke-width="34" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M196 330 V250 H276"/>
+    <path d="M748 250 H828 V330"/>
+    <path d="M828 714 V794 H748"/>
+    <path d="M276 794 H196 V714"/>
+  </g>
+</svg>

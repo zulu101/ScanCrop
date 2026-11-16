@@ -1,0 +1,82 @@
+/* ScanCrop – deutsche Übersetzung */
+
+/* Menüs und Fenster */
+"ScanCrop" = "ScanCrop";
+"Add Scans…" = "Scans hinzufügen …";
+"Export Photos…" = "Fotos exportieren …";
+"Remove All Scans" = "Alle Scans entfernen";
+"Scan" = "Scan";
+"Previous Scan" = "Vorheriger Scan";
+"Next Scan" = "Nächster Scan";
+"Detect Photos Again" = "Fotos neu erkennen";
+
+/* Leerer Zustand und Werkzeugleiste */
+"Drop Scans Here" = "Scans hierher ziehen";
+"Drag scans or a whole folder into this window. ScanCrop finds the photos on each scan, straightens them and cuts away the white background." = "Ziehe Scans oder einen ganzen Ordner in dieses Fenster. ScanCrop findet die Fotos auf jedem Scan, richtet sie gerade aus und schneidet den weißen Hintergrund weg.";
+"Add scans or a folder of scans" = "Scans oder einen Ordner mit Scans hinzufügen";
+"Detection" = "Erkennung";
+"How photos are found" = "Wie Fotos erkannt werden";
+"Export…" = "Exportieren …";
+"Save all photos into a folder" = "Alle Fotos in einen Ordner speichern";
+"Choose scans or a folder of scans" = "Wähle Scans oder einen Ordner mit Scans";
+
+/* Erkennung */
+"Sensitivity" = "Empfindlichkeit";
+"Higher finds pale photo edges such as a bright sky. Lower ignores dust and shadows." = "Höher findet auch blasse Fotoränder wie einen hellen Himmel. Niedriger ignoriert Staub und Schatten.";
+"Straighten tilted photos" = "Schiefe Fotos gerade ausrichten";
+"Remove white print borders" = "Weiße Bildränder von Abzügen entfernen";
+"Removes the white border that many old prints have, when it runs around at least three sides." = "Entfernt den weißen Rand vieler alter Abzüge, wenn er an mindestens drei Seiten vorhanden ist.";
+"Changes are applied to all scans right away. Scans you have corrected by hand are kept." = "Änderungen gelten sofort für alle Scans. Von Hand korrigierte Scans bleiben unverändert.";
+
+/* Liste */
+"Show in Finder" = "Im Finder zeigen";
+"Remove from List" = "Aus der Liste entfernen";
+"%lld scans · %lld photos" = "%lld Scans · %lld Fotos";
+"Corrected by hand" = "Von Hand korrigiert";
+"Waiting…" = "Wartet …";
+"Looking for photos…" = "Suche Fotos …";
+"No photo found" = "Kein Foto gefunden";
+"1 photo" = "1 Foto";
+"%lld photos" = "%lld Fotos";
+"The file could not be read as an image." = "Die Datei konnte nicht als Bild gelesen werden.";
+
+/* Bearbeiten */
+"Photo %lld" = "Foto %lld";
+"Rotate Left" = "Nach links drehen";
+"Rotate Right" = "Nach rechts drehen";
+"Turn the saved photo by 90°" = "Das gespeicherte Foto um 90° drehen";
+"Tilt %.1f°" = "Neigung %.1f°";
+"Fine-tune the straightening" = "Ausrichtung fein nachjustieren";
+"Delete" = "Löschen";
+"Not a photo: remove it (⌫)" = "Kein Foto: entfernen (⌫)";
+"Click a photo to adjust it. Drag on empty space to mark a photo by hand." = "Klicke auf ein Foto, um es anzupassen. Ziehe auf einer freien Fläche, um ein Foto von Hand zu markieren.";
+"For this scan only. Detects the photos again and discards changes made by hand." = "Nur für diesen Scan. Erkennt die Fotos neu und verwirft Änderungen von Hand.";
+"Detect Again" = "Neu erkennen";
+"Discard changes made by hand and detect the photos again" = "Änderungen von Hand verwerfen und die Fotos neu erkennen";
+"No photo found on this scan. Raise the sensitivity or drag a rectangle around the photo." = "Auf diesem Scan wurde kein Foto gefunden. Erhöhe die Empfindlichkeit oder ziehe ein Rechteck um das Foto.";
+
+/* Export */
+"Format" = "Format";
+"Same as scan" = "Wie der Scan";
+"TIFF (lossless)" = "TIFF (verlustfrei)";
+"PNG (lossless)" = "PNG (verlustfrei)";
+"Quality" = "Qualität";
+"Extra trim" = "Zusätzlich beschneiden";
+"Cuts a little more off every side if thin white lines remain at the edges." = "Schneidet an jeder Seite etwas mehr ab, falls dünne weiße Linien an den Rändern bleiben.";
+"Save to" = "Speichern in";
+"No folder chosen" = "Kein Ordner gewählt";
+"Choose…" = "Wählen …";
+"Choose" = "Wählen";
+"Choose the folder for the finished photos" = "Wähle den Ordner für die fertigen Fotos";
+"Files are named after the scan; several photos on one scan get _1, _2, … Existing files are never replaced. Resolution (DPI), colour profile and metadata are kept." = "Die Dateien heißen wie der Scan; mehrere Fotos auf einem Scan erhalten _1, _2, … Vorhandene Dateien werden nie überschrieben. Auflösung (DPI), Farbprofil und Metadaten bleiben erhalten.";
+"Saving photos…" = "Fotos werden gespeichert …";
+"%lld photos from %lld scans" = "%lld Fotos aus %lld Scans";
+"%lld scans without a photo are skipped." = "%lld Scans ohne Foto werden übersprungen.";
+"Some scans are still being analysed." = "Einige Scans werden noch analysiert.";
+"Cancel" = "Abbrechen";
+"Close" = "Schließen";
+"Export" = "Exportieren";
+"%lld photos saved." = "%lld Fotos gespeichert.";
+"%lld photos saved, %lld scans failed:" = "%lld Fotos gespeichert, %lld Scans fehlgeschlagen:";
+"A photo could not be cut out." = "Ein Foto konnte nicht ausgeschnitten werden.";
+"%@ could not be saved." = "%@ konnte nicht gespeichert werden.";
